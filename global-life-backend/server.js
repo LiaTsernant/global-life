@@ -4,8 +4,8 @@ const session = require("express-session");
 const MongoStore = require("connect-mongo")(session);
 const app = express();
 const PORT = process.env.PORT || 4000;
-const db = require('./models')
-// const routes = require("./routes");
+// const db = require('./models')
+const routes = require("./routes");
 const cors = require("cors");
 
 const corsOptions = {
@@ -44,12 +44,12 @@ app.use(session({
 }));
 
 // ROUTES-----------------------------------------------------------------
-// app.use("/api/v1", routes.api);
+app.use("/api/v1", routes.api);
 
 // // Wrong api route
-// app.use("/api/*", (req, res) => {
-//     res.status(404).json({ status: 404, error: "Source not found." })
-// });
+app.use("/api/*", (req, res) => {
+    res.status(404).json({ status: 404, error: "Source not found." })
+});
 
 // -----------------------------------------------------------------
 app.listen(PORT, () => console.log(`Server running at http://localhost:${PORT}/`));
