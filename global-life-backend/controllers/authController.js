@@ -1,8 +1,8 @@
 const db = require("../models");
 const bcrypt = require("bcryptjs");
-let AWS = require('aws-sdk');
-AWS.config.update({region: 'us-west-1'});
-let sendEmail = require('../aws_ses');
+// // let AWS = require('aws-sdk');
+// AWS.config.update({region: 'us-west-1'});
+// let sendEmail = require('../aws_ses');
 
 const register = (req, res) => {
     db.User.findOne({ email: req.body.email }, (err, foundUser) => {
@@ -55,14 +55,14 @@ const login = (req, res) => {
             if (err) return res.status(404).json({ status: 404, error: "Cannot login a user" });
             if (isMatch) {
                 const currentUser = {
-                    _id: newUser._id,
-                    firstName: newUser.firstName,
-                    lastName: newUser.lastName,
-                    email: newUser.email,
-                    address: newUser.address,
-                    photo: newUser.photo,
-                    contactPerson: newUser.contactPerson,
-                    country: newUser.country
+                    _id: foundUser._id,
+                    firstName: foundUser.firstName,
+                    lastName: foundUser.lastName,
+                    email: foundUser.email,
+                    address: foundUser.address,
+                    photo: foundUser.photo,
+                    contactPerson: foundUser.contactPerson,
+                    country: foundUser.country
                 };
                 req.session.currentUser = currentUser;
                 res.status(201).json({ status: 201, user: currentUser })
