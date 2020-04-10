@@ -1,4 +1,8 @@
 # Global Life
+
+[Frontend Folder](https://github.com/LiaTsernant/global-life-frontend)
+
+[Backend Folder](https://github.com/LiaTsernant/global-life-backend)
 ### My story
 As a traveler, I want to travel and feel safe.
 When I had an experience calling 911, I had to wait for 10 minutes to be redirected to emergency phone number and then I needed to explain again my problem.
