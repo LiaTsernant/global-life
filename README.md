@@ -21,36 +21,18 @@ I decided to build an application that displays local direct numbers of rescue s
 * Address,
 * Contact person details.
 
-### Components Tree:
+Thanks to our instructors who helped to make this real:
+ - Allen Wright
+ - Isha Arora
+ - Carson Butterfield,
+ - Brock Whitbread-Cole   
+ - Kenny Bushman
 
-* App,
-    * Header.
-    * Routes:
-        * Main:
-            * Country Container:
-                * Country name.
-                * Location Dropdown.
-            * Phones Container:
-                * Rescue services numbers.
-                * Button “Call”.
-                * List on numbers.
-        * About.
-        * Profile:
-            * Upload Photo component.
-            * Details(Name, address, location…) form.
-            * Edit / Delete buttons.
-    * Footer.
-
-### Technologies:
-MongoDB,  
+### Technologies Used:
 JavaScript,  
 Node,  
-React (React Native),  
-Location: Google / Waze API,  
-Photo Upload: AWS S3,  
-Emails: AWS SES,  
-Phone call: HTML “tel:” property
-* Stretch Goal: Twillio “Click-to-call”
+React Native,  
+MongoDB,  
 
 #### Next Features
 * Translation to different languages.
@@ -58,5 +40,3 @@ Phone call: HTML “tel:” property
 * Password Reset.
 * Receiving emails with news about the application.
 * SOS as a separate button that sends your location.
-
-
