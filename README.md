@@ -9,18 +9,6 @@ When I had an experience calling 911, I had to wait for 10 minutes to be redirec
 What if I know I need emergency NOW and I don’t have time to explain my problem twice?
 I decided to build an application that displays local direct numbers of rescue services in the location of the device and allows to call these services.
 
-### What I want to see in the application:
-
-* List of countries.
-* About page.
-* Geolocation.
-* Profile:
-* Name,
-* Photo,
-* Email,
-* Address,
-* Contact person details.
-
 Thanks to our instructors who helped to make this real:
  - Allen Wright
  - Isha Arora
