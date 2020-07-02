@@ -12,6 +12,7 @@ When I had an experience calling 911, I had to wait for 10 minutes to be redirec
 What if I know I need emergency NOW and I don’t have time to explain my problem twice?
 I decided to build an application that displays local direct numbers of rescue services in the location of the device and allows to call these services.
 
+<<<<<<< HEAD
 ### What I want to see in the application:
 
 * List of countries.
@@ -29,3 +30,24 @@ I decided to build an application that displays local direct numbers of rescue s
 - MongoDB,  
 - Node,  
 - React Native
+=======
+Thanks to our instructors who helped to make this real:
+ - Allen Wright
+ - Isha Arora
+ - Carson Butterfield,
+ - Brock Whitbread-Cole   
+ - Kenny Bushman
+
+### Technologies Used:
+JavaScript,  
+Node,  
+React Native,  
+MongoDB,  
+
+#### Next Features
+* Translation to different languages.
+* SignUp with mobile phone.
+* Password Reset.
+* Receiving emails with news about the application.
+* SOS as a separate button that sends your location.
+>>>>>>> 780e43c161f8e97c0f58bc5fffe6a5a1cdfb5047
