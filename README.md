@@ -29,13 +29,6 @@ I decided to build an application that displays local direct numbers of rescue s
 - MongoDB,  
 - Node,  
 - React Native
-=======
-Thanks to our instructors who helped to make this real:
- - Allen Wright
- - Isha Arora
- - Carson Butterfield,
- - Brock Whitbread-Cole   
- - Kenny Bushman
 
 ### Technologies Used:
 JavaScript,  
