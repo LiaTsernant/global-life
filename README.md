@@ -12,7 +12,6 @@ When I had an experience calling 911, I had to wait for 10 minutes to be redirec
 What if I know I need emergency NOW and I don’t have time to explain my problem twice?
 I decided to build an application that displays local direct numbers of rescue services in the location of the device and allows to call these services.
 
-<<<<<<< HEAD
 ### What I want to see in the application:
 
 * List of countries.
@@ -50,4 +49,3 @@ MongoDB,
 * Password Reset.
 * Receiving emails with news about the application.
 * SOS as a separate button that sends your location.
->>>>>>> 780e43c161f8e97c0f58bc5fffe6a5a1cdfb5047
