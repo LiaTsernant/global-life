@@ -3,6 +3,9 @@
 [Frontend Folder](https://github.com/LiaTsernant/global-life-frontend)
 
 [Backend Folder](https://github.com/LiaTsernant/global-life-backend)
+
+![globalLife](assets/globalLife.jpg)
+
 ### My story
 As a traveler, I want to travel and feel safe.
 When I had an experience calling 911, I had to wait for 10 minutes to be redirected to emergency phone number and then I needed to explain again my problem.
@@ -21,42 +24,8 @@ I decided to build an application that displays local direct numbers of rescue s
 * Address,
 * Contact person details.
 
-### Components Tree:
-
-* App,
-    * Header.
-    * Routes:
-        * Main:
-            * Country Container:
-                * Country name.
-                * Location Dropdown.
-            * Phones Container:
-                * Rescue services numbers.
-                * Button “Call”.
-                * List on numbers.
-        * About.
-        * Profile:
-            * Upload Photo component.
-            * Details(Name, address, location…) form.
-            * Edit / Delete buttons.
-    * Footer.
-
-### Technologies:
-MongoDB,  
-JavaScript,  
-Node,  
-React (React Native),  
-Location: Google / Waze API,  
-Photo Upload: AWS S3,  
-Emails: AWS SES,  
-Phone call: HTML “tel:” property
-* Stretch Goal: Twillio “Click-to-call”
-
-#### Next Features
-* Translation to different languages.
-* SignUp with mobile phone.
-* Password Reset.
-* Receiving emails with news about the application.
-* SOS as a separate button that sends your location.
-
-
+### Technologies Used:
+- JavaScript,  
+- MongoDB,  
+- Node,  
+- React Native
