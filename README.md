@@ -17,9 +17,8 @@ I decided to build an application that displays local direct numbers of rescue s
 * List of countries.
 * About page.
 * Geolocation.
-* Profile:
+* Profile,
 * Name,
-* Photo,
 * Email,
 * Address,
 * Contact person details.
@@ -29,16 +28,3 @@ I decided to build an application that displays local direct numbers of rescue s
 - MongoDB,  
 - Node,  
 - React Native
-
-### Technologies Used:
-JavaScript,  
-Node,  
-React Native,  
-MongoDB,  
-
-#### Next Features
-* Translation to different languages.
-* SignUp with mobile phone.
-* Password Reset.
-* Receiving emails with news about the application.
-* SOS as a separate button that sends your location.
